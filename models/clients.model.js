@@ -9,7 +9,6 @@ const clientSchema = new mongoose.Schema({
   },
 });
 
-const clientModel = mongoose.model("clientdata", clientSchema);
-
+const clientModel = mongoose.model("clientdata", clientSchema)
 module.exports =  clientModel ;
 
